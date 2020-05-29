@@ -1,4 +1,4 @@
-# PyDynamic tutorials
+# _PyDynamic tutorials_
 
 This is a collection of tutorials and examples to document, explain and illustrate the possibilities offered by the parent library [_PyDynamic_](https://github.com/PTB-PSt1/). We will add more and more examples over time, especially those that are currently included in  itself.
 
@@ -71,16 +71,20 @@ $ jupyter notebook
 
 ### 5. Go to localhost:8888
 
-Usually a browser window already opened automatically at this point. Otherwise just open
-one yourself and navigate to the printed URL in the console, in our case
+Usually a browser window will have opened automatically at this point. Otherwise just
+open one yourself and navigate to the printed URL in the console, in our case
 `http://localhost:8888/?token=f368c552e042d48d46ff4c8a094448d0e7681790b0719215`.
 
 ### 6. Browse the various examples
 
+You should see something like the following:
+
 ![Jupyter Notebook Server](jupyter_notebook_server.png)
+
+After a click on _PyDynamic_tutorials_ the source code can be edited and executed directly in the browser.
 
 ## Documentation
 
-The detailed documentation of 's source code is available on
+The detailed documentation of _PyDynamic_'s source code is available on
 [pydynamic.readthedocs.io](https://pydynamic.readthedocs.io/) and is enriched with
 extensively commented calls of the  methods in the form of Jupyter notebooks.
