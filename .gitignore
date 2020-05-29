@@ -1,0 +1,7 @@
+# Jupyter Notebook artifacts #
+##############################
+.ipynb_checkpoints/
+
+# Data artifacts #
+##################
+*.dump
