@@ -20,7 +20,7 @@ the following:
 ```shell
 $ git clone https://github.com/PTB-PSt1/PyDynamic_tutorials.git
 Cloning into 'PyDynamic_tutorials'...
-[...]]
+[...]
 Receiving objects: 100% (3/3), done.
 $
 ```
@@ -30,7 +30,7 @@ $
 On your command line/powershell execute:
 
 ```shell
-$ python3 -m venv _tutorial_venv
+$ python3 -m venv PyDynamic_tutorial_venv
 $
 ```
 
