@@ -10,3 +10,4 @@ PyDynamic_tutorials/deconvolution/AmplitudeData
 PyDynamic_tutorials/deconvolution/HydrophonCalibrationData
 PyDynamic_tutorials/deconvolution/MeasuredSignals/M-Mode 3 MHz
 PyDynamic_tutorials/deconvolution/MeasuredSignals
+run_regularization.py

@@ -6,7 +6,7 @@ Martin Weber, Volker Wilkens (Physikalisch-Technische Bundesanstalt, Ultrasonics
 """
 
 import numpy as np
-from scipy.signal import freqs, bessel, firwin, freqz
+from scipy.signal import freqs, bessel, firwin, freqz, argrelmax
 
 def calcfreqscale(timeseries, sign2=1):
     """Calculates the appropriate time scale for a given (equidistant) time series
@@ -290,26 +290,26 @@ def butter(f, fcut, order=5):
 
 def calc_awf(f, U, verbose=True, return_all=False):
     """
-    Calculate average working frequency for Fourier transformed measurement.
+    Calculate standard acoustic work frequency for Fourier transformed measurement.
 
     :param f: vector of frequencies
-    :param U: vector of FFT values
+    :param U: vector of FFT values of Fourier transformed measurement
 
     :return f_awf: average working frequency
     """
 
     indmax = np.argmax(np.abs(U))
-    U3dB = 0.71 * np.abs(U[indmax])
-    f1_ind = np.nonzero(np.abs(U[:indmax]) <= U3dB)[0][-1]
+    U3dB = 0.71 * np.abs(U[indmax])     # 3 dB of largest amplitude
+    f1_ind = np.nonzero(np.abs(U[:indmax]) <= U3dB)[0][-1] # largest frequency with 3 dB amplitude
 
-    if np.abs(U[f1_ind]) != U3dB:
+    if np.abs(U[f1_ind]) != U3dB:   # if not exactly 3 dB, then perform linear interpolation
         x1, x2 = f[f1_ind], f[f1_ind + 1]
         y1, y2 = np.abs(U[f1_ind]), np.abs(U[f1_ind + 1])
         f1 = (U3dB - y1) * (x2 - x1) / (y2 - y1) + x1  # linear interpolation
     else:
         f1 = f[f1_ind]
 
-    f3x = 3.0 * f1
+    f3x = 3.0 * f1  # right-hand side of search interval
 
     search_inds = np.nonzero((f >= f[indmax]) & (f <= f3x))[0]
     if verbose:
@@ -325,11 +325,13 @@ def calc_awf(f, U, verbose=True, return_all=False):
     if verbose:
         print("determined f1: %g MHz\ndetermined f2: %g MHz" % (f1 * 1e-6, f2 * 1e-6))
 
-    f_awf = 0.5 * (f1 + f2)
+    f_awf = float( 0.5 * (f1 + f2) )
     if verbose:
-        print("resulting f_awf = %g MHz" % f_awf*1e-6)
+        print("resulting f_awf = %g MHz" % (f_awf*1e-6) )
 
     if return_all:
         return float(f_awf), f1, f2, f3x
     else:
         return float(f_awf)
+
+
