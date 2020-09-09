@@ -5,6 +5,8 @@
 # Data artifacts #
 ##################
 *.h5
+*.npy
+*.p
 run_example.py
 PyDynamic_tutorials/deconvolution/AmplitudeData
 PyDynamic_tutorials/deconvolution/HydrophonCalibrationData
