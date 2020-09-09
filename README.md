@@ -1,5 +1,7 @@
 # _PyDynamic tutorials_
 
+[![Documentation Status](https://readthedocs.org/projects/pydynamic-tutorials/badge/?version=latest)](https://pydynamic-tutorials.readthedocs.io/en/latest/?badge=latest)
+
 This is a collection of tutorials and examples to document, explain and illustrate the possibilities offered by the parent library [_PyDynamic_](https://github.com/PTB-PSt1/). We will add more and more examples over time, especially those that are currently included in  itself.
 
 ## Getting started
@@ -86,5 +88,5 @@ After a click on _PyDynamic_tutorials_ the source code can be edited and execute
 ## Documentation
 
 The detailed documentation of _PyDynamic_'s source code is available on
-[pydynamic.readthedocs.io](https://pydynamic.readthedocs.io/) and is enriched with
-extensively commented calls of the  methods in the form of Jupyter notebooks.
+[pydynamic.readthedocs.io](https://pydynamic.readthedocs.io/). The notebooks in
+ this repository are built into these pages along with additional material.
