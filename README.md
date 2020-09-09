@@ -14,9 +14,7 @@ To get going with the tutorials you can either start directly in your browser or
  
  ### Get a local copy to work offline
 
-To get started on your local machine basically follow these simple steps, which we
-will take you through in
-the following:
+To get started on your local machine, follow these simple steps:
 
 1. Clone the repository, if you haven't already
 1. Set up a virtual environment for PyDynamic_tutorials
