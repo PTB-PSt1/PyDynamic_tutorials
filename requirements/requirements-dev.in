@@ -3,3 +3,6 @@
 jupyter_contrib_nbextensions
 jupyter_nbextensions_configurator
 black
+nbsphinx
+recommonmark
+sphinx_rtd_theme
