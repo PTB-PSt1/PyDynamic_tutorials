@@ -20,17 +20,27 @@ For the *PyDynamic_tutorials* homepage go to
 
 .. toctree::
    :maxdepth: 1
-   :caption: Getting started:
+   :caption: Getting started
 
-   README
+   Get going with the tutorials <README>
+
+.. toctree::
+   :numbered: 1
+   :maxdepth: 1
+   :caption: Deconvolution tutorial
+
+   PyDynamic_tutorials/deconvolution/01 Basic measurement data pre-processing.ipynb
+   PyDynamic_tutorials/deconvolution/02 Preparation of calibration data.ipynb
+   PyDynamic_tutorials/deconvolution/03 Interpolation and extrapolation of calibration data.ipynb
+   PyDynamic_tutorials/deconvolution/04 Calculation of impulse response of hydrophone.ipynb
+   PyDynamic_tutorials/deconvolution/05 Deconvolution in the frequency domain.ipynb
+   PyDynamic_tutorials/deconvolution/06 Regularized deconvolution.ipynb
 
 .. toctree::
    :maxdepth: 1
-   :caption: Tutorials:
+   :caption: Uncertainty tutorial
 
-   PyDynamic_tutorials/deconvolution/tutorial_1_generator_agent.ipynb
    PyDynamic_tutorials/uncertainty/interpolation.ipynb
-
 
 Indices and tables
 ==================
