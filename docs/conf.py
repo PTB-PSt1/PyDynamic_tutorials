@@ -56,6 +56,12 @@ shutil.copyfile(
     os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "README.md")),
     os.path.join(os.path.dirname(__file__), "README.md"),
 )
+shutil.copyfile(
+    os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "..", "jupyter_notebook_server.png")
+    ),
+    os.path.join(os.path.dirname(__file__), "jupyter_notebook_server.png"),
+)
 
 # Copy over all other specified folders from repository tree.
 
