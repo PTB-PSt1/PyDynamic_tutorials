@@ -2,12 +2,17 @@
 
 [![Documentation Status](https://readthedocs.org/projects/pydynamic-tutorials/badge/?version=latest)](https://pydynamic-tutorials.readthedocs.io/en/latest/?badge=latest)
 
-This is a collection of tutorials and examples to document, explain and illustrate the possibilities offered by the parent library [_PyDynamic_](https://github.com/PTB-PSt1/). We will add more and more examples over time, especially those that are currently included in  itself.
+We prepared a collection of tutorials and examples to document, explain and illustrate
+the possibilities offered by [_PyDynamic_](https://github.com/PTB-PSt1/PyDynamic). We
+will add more and more examples over time, especially those that are currently
+included in _PyDynamic_'s codebase subfolders
+[examples](https://github.com/PTB-PSt1/PyDynamic/tree/master/examples) and
+[tutorials](https://github.com/PTB-PSt1/PyDynamic/tree/master/tutorials).
 
 ## Getting started
 
 To get going with the tutorials you can either start directly in your browser or get
- a local copy and experiment offline on your machine.
+a local copy and experiment offline on your machine.
  
  ### Quick start in current browser session
  
