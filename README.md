@@ -9,8 +9,7 @@ To get going with the tutorials you can either start directly in your browser or
  
  ### Quick start in current browser session
  
- To start working in the notebooks directly in the browser, click 
- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PTB-PSt1/PyDynamic_tutorials/introduce_mybinder).
+To start working in the notebooks directly in the browser, click [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PTB-PSt1/PyDynamic_tutorials/master).
  
  ### Get a local copy to work offline
 
