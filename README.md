@@ -98,8 +98,9 @@ You should see something like the following:
 
 After a click on _PyDynamic_tutorials_ the source code can be edited and executed directly in the browser.
 
-## Documentation
+## PyDynamic
 
+The [sourcecode of PyDynamic is available on GitHub](https://github.com/PTB-PSt1/PyDynamic).
 The detailed documentation of _PyDynamic_'s source code is available on
-[pydynamic.readthedocs.io](https://pydynamic.readthedocs.io/). The notebooks in
- this repository are built into these pages along with additional material.
+[pydynamic.readthedocs.io](https://pydynamic.readthedocs.io/). The tutorial notebooks
+are all linked on these pagKes along with additional material.
