@@ -2,6 +2,13 @@
 ##############################
 .ipynb_checkpoints/
 
+# Documentation clutter #
+#########################
+docs/_build
+docs/jupyter_notebook_server.png
+docs/README.md
+docs/**/*.ipynb
+
 # Data artifacts #
 ##################
 *.h5
