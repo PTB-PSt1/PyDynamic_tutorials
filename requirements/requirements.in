@@ -1,6 +1,9 @@
 download
+ipywidgets
+h5py
 holoviews[recommended]
 notebook
 numpy
 pandas
+plotly
 PyDynamic

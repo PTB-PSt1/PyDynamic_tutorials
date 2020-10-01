@@ -40,7 +40,9 @@ For the *PyDynamic_tutorials* homepage go to
    :maxdepth: 1
    :caption: Uncertainty tutorial
 
-   PyDynamic_tutorials/uncertainty/interpolation.ipynb
+   PyDynamic_tutorials/uncertainty/01 Basic measurement data pre-processing.ipynb
+   PyDynamic_tutorials/uncertainty/02 Basic interpolation.ipynb
+   PyDynamic_tutorials/uncertainty/03 Basic extrapolation.ipynb
 
 Indices and tables
 ==================
