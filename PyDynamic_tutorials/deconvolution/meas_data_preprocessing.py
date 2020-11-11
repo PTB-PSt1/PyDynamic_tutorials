@@ -10,8 +10,23 @@ def read_data(meas_scenario = 13, verbose = True):
     :param verbose: Boolean; if true write info to command line
     :return: infos, measurement_data as dict
     """
+    DATA_SOURCE_REPO = (
+        "https://raw.githubusercontent.com/Ma-Weber/Tutorial-Deconvolution/master/"
+    )
+
     infos = {"i": meas_scenario}
-    infos, measurementfile, noisefile, hydfilename = get_file_info(infos) # file names and such
+    infos, measurementfile, noisefile, hydfilename = get_file_info(infos)  # file
+    # Before reading the data check if data is present and if not download it.
+    measurementfile = download_tutorial_data(
+        url=DATA_SOURCE_REPO + measurementfile.replace(" ", "%20")
+    )
+    noisefile = download_tutorial_data(
+        url=DATA_SOURCE_REPO + noisefile.replace(" ", "%20")
+    )
+    hydfilename = download_tutorial_data(
+        url=DATA_SOURCE_REPO + hydfilename.replace(" ", "%20")
+    )
+    # names and such
     infos["measurementfile"] = measurementfile
     infos["noisefile"] = noisefile
     infos["hydfilename"] = hydfilename
