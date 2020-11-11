@@ -20,4 +20,7 @@ def download_tutorial_data(
     # Construct the file path to the repository's datasets' subfolder from the
     # filename at the end of the URL.
     filename = f"../datasets/{url.split('/')[-1]}"
+    if verbose:
+        print(f"Checking if file {filename} is already present or download "
+              f"it from {url} otherwise:")
     return download(url, filename, replace=replace, verbose=verbose)
