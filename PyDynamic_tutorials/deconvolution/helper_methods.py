@@ -327,7 +327,7 @@ def calc_awf(f, U, verbose=True, return_all=False):
 
     f_awf = 0.5 * (f1 + f2)
     if verbose:
-        print("resulting f_awf = %g MHz" % f_awf*1e-6)
+        print(f"resulting f_awf = {f_awf*1e-6} MHz")
 
     if return_all:
         return float(f_awf), f1, f2, f3x

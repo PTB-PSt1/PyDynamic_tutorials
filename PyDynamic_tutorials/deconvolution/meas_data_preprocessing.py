@@ -1,10 +1,19 @@
 # -*- coding: utf-8 -*-
 
+import os
+import sys
+
+datasets_dir = os.path.dirname(os.path.abspath('')) + '/datasets'
+if datasets_dir not in sys.path: sys.path.append(datasets_dir)
+
 from download_data import download_tutorial_data
 from helper_methods import *
 from matplotlib.pyplot import *
 from PyDynamic.uncertainty.propagate_DFT import GUM_DFT
 
+DATA_SOURCE_REPO = (
+    "https://raw.githubusercontent.com/Ma-Weber/Tutorial-Deconvolution/master/"
+)
 
 def read_data(meas_scenario = 13, verbose = True):
     """
@@ -12,10 +21,6 @@ def read_data(meas_scenario = 13, verbose = True):
     :param verbose: Boolean; if true write info to command line
     :return: infos, measurement_data as dict
     """
-    DATA_SOURCE_REPO = (
-        "https://raw.githubusercontent.com/Ma-Weber/Tutorial-Deconvolution/master/"
-    )
-
     infos = {"i": meas_scenario}
     infos, measurementfile, noisefile, hydfilename = get_file_info(infos)  # file
     # Before reading the data check if data is present and if not download it.
