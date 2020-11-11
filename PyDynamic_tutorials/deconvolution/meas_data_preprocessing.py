@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from matplotlib.pyplot import *
+from download_data import download_tutorial_data
 from helper_methods import *
+from matplotlib.pyplot import *
 from PyDynamic.uncertainty.propagate_DFT import GUM_DFT
+
 
 def read_data(meas_scenario = 13, verbose = True):
     """
