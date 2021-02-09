@@ -28,7 +28,7 @@ backcall==0.2.0
     #   ipython
 black==20.8b1
     # via -r requirements/requirements-dev.in
-bleach==3.2.2
+bleach==3.3.0
     # via
     #   -c requirements/requirements.txt
     #   nbconvert
@@ -82,7 +82,7 @@ ipython-genutils==0.2.0
     #   nbformat
     #   notebook
     #   traitlets
-ipython==7.19.0
+ipython==7.20.0
     # via
     #   -c requirements/requirements.txt
     #   ipykernel
@@ -91,7 +91,7 @@ jedi==0.18.0
     # via
     #   -c requirements/requirements.txt
     #   ipython
-jinja2==2.11.2
+jinja2==2.11.3
     # via
     #   -c requirements/requirements.txt
     #   nbconvert
@@ -114,7 +114,7 @@ jupyter-contrib-core==0.3.3
     #   jupyter-nbextensions-configurator
 jupyter-contrib-nbextensions==0.5.1
     # via -r requirements/requirements-dev.in
-jupyter-core==4.7.0
+jupyter-core==4.7.1
     # via
     #   -c requirements/requirements.txt
     #   jupyter-client
@@ -169,7 +169,7 @@ nbformat==5.1.2
     #   notebook
 nbsphinx==0.8.1
     # via -r requirements/requirements-dev.in
-nest-asyncio==1.4.3
+nest-asyncio==1.5.1
     # via
     #   -c requirements/requirements.txt
     #   nbclient
@@ -180,7 +180,7 @@ notebook==6.2.0
     #   jupyter-contrib-nbextensions
     #   jupyter-latex-envs
     #   jupyter-nbextensions-configurator
-packaging==20.8
+packaging==20.9
     # via
     #   -c requirements/requirements.txt
     #   bleach
@@ -207,7 +207,7 @@ prometheus-client==0.9.0
     # via
     #   -c requirements/requirements.txt
     #   notebook
-prompt-toolkit==3.0.11
+prompt-toolkit==3.0.14
     # via
     #   -c requirements/requirements.txt
     #   ipython
@@ -239,7 +239,7 @@ python-dateutil==2.8.1
     # via
     #   -c requirements/requirements.txt
     #   jupyter-client
-pytz==2020.5
+pytz==2021.1
     # via
     #   -c requirements/requirements.txt
     #   babel
@@ -248,7 +248,7 @@ pyyaml==5.4.1
     #   -c requirements/requirements.txt
     #   jupyter-contrib-nbextensions
     #   jupyter-nbextensions-configurator
-pyzmq==21.0.1
+pyzmq==22.0.2
     # via
     #   -c requirements/requirements.txt
     #   jupyter-client
@@ -336,7 +336,7 @@ typing-extensions==3.7.4.3
     # via
     #   -c requirements/requirements.txt
     #   black
-urllib3==1.26.2
+urllib3==1.26.3
     # via
     #   -c requirements/requirements.txt
     #   requests
