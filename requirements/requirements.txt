@@ -12,7 +12,7 @@ attrs==20.3.0
     # via jsonschema
 backcall==0.2.0
     # via ipython
-bleach==3.2.2
+bleach==3.3.0
     # via nbconvert
 bokeh==2.2.3
     # via
@@ -51,7 +51,7 @@ ipython-genutils==0.2.0
     #   nbformat
     #   notebook
     #   traitlets
-ipython==7.19.0
+ipython==7.20.0
     # via
     #   holoviews
     #   ipykernel
@@ -60,7 +60,7 @@ ipywidgets==7.6.3
     # via -r requirements/requirements.in
 jedi==0.18.0
     # via ipython
-jinja2==2.11.2
+jinja2==2.11.3
     # via
     #   bokeh
     #   nbconvert
@@ -72,7 +72,7 @@ jupyter-client==6.1.11
     #   ipykernel
     #   nbclient
     #   notebook
-jupyter-core==4.7.0
+jupyter-core==4.7.1
     # via
     #   jupyter-client
     #   nbconvert
@@ -88,7 +88,7 @@ markdown==3.3.3
     # via panel
 markupsafe==1.1.1
     # via jinja2
-matplotlib==3.3.3
+matplotlib==3.3.4
     # via
     #   holoviews
     #   pydynamic
@@ -104,14 +104,14 @@ nbformat==5.1.2
     #   nbclient
     #   nbconvert
     #   notebook
-nest-asyncio==1.4.3
+nest-asyncio==1.5.1
     # via nbclient
 notebook==6.2.0
     # via
     #   -r requirements/requirements.in
     #   holoviews
     #   widgetsnbextension
-numpy==1.19.5
+numpy==1.20.1
     # via
     #   -r requirements/requirements.in
     #   bokeh
@@ -121,7 +121,7 @@ numpy==1.19.5
     #   pandas
     #   pydynamic
     #   scipy
-packaging==20.8
+packaging==20.9
     # via
     #   bleach
     #   bokeh
@@ -155,7 +155,7 @@ plotly==4.14.3
     # via -r requirements/requirements.in
 prometheus-client==0.9.0
     # via notebook
-prompt-toolkit==3.0.11
+prompt-toolkit==3.0.14
     # via ipython
 ptyprocess==0.7.0
     # via
@@ -186,7 +186,7 @@ python-dateutil==2.8.1
     #   jupyter-client
     #   matplotlib
     #   pandas
-pytz==2020.5
+pytz==2021.1
     # via pandas
 pyviz-comms==2.0.1
     # via
@@ -194,7 +194,7 @@ pyviz-comms==2.0.1
     #   panel
 pyyaml==5.4.1
     # via bokeh
-pyzmq==21.0.1
+pyzmq==22.0.2
     # via
     #   jupyter-client
     #   notebook
@@ -248,7 +248,7 @@ traitlets==5.0.5
     #   notebook
 typing-extensions==3.7.4.3
     # via bokeh
-urllib3==1.26.2
+urllib3==1.26.3
     # via requests
 wcwidth==0.2.5
     # via prompt-toolkit
